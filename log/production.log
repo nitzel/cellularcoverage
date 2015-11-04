@@ -1,0 +1,416 @@
+I, [2015-11-04T20:56:55.770524 #53294]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 20:56:55 +0100
+F, [2015-11-04T20:56:55.775087 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T20:58:21.634135 #53294]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 20:58:21 +0100
+F, [2015-11-04T20:58:21.635125 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T20:58:23.973279 #53294]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 20:58:23 +0100
+F, [2015-11-04T20:58:23.974192 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T20:58:32.562462 #53294]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 20:58:32 +0100
+F, [2015-11-04T20:58:32.563418 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:32:53.984748 #53294]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 21:32:53 +0100
+F, [2015-11-04T21:32:53.985586 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:46:37.769577 #53294]  INFO -- : Started GET "/" for 95.215.9.222 at 2015-11-04 21:46:37 +0100
+F, [2015-11-04T21:46:37.770429 #53294] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.21) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:55:48.947092 #9152]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 21:55:48 +0100
+F, [2015-11-04T21:55:48.951786 #9152] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:57:40.101473 #9305]  INFO -- : Started GET "/map/" for 10.0.0.78 at 2015-11-04 21:57:40 +0100
+F, [2015-11-04T21:57:40.105841 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/map"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:59:47.888088 #9305]  INFO -- : Started GET "/" for 10.0.0.78 at 2015-11-04 21:59:47 +0100
+I, [2015-11-04T21:59:47.890318 #9305]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-11-04T21:59:47.901574 #9305]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.6ms)
+I, [2015-11-04T21:59:47.903442 #9305]  INFO -- : Completed 200 OK in 13ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+I, [2015-11-04T21:59:48.030235 #9305]  INFO -- : Started GET "/stylesheets/application.css" for 10.0.0.78 at 2015-11-04 21:59:48 +0100
+F, [2015-11-04T21:59:48.031175 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T21:59:48.038943 #9305]  INFO -- : Started GET "/javascripts/application.js" for 10.0.0.78 at 2015-11-04 21:59:48 +0100
+F, [2015-11-04T21:59:48.039949 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T22:00:37.930333 #9305]  INFO -- : Started GET "/" for 10.0.0.78 at 2015-11-04 22:00:37 +0100
+I, [2015-11-04T22:00:37.931135 #9305]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-11-04T22:00:37.935735 #9305]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.0ms)
+I, [2015-11-04T22:00:37.936607 #9305]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2015-11-04T22:00:38.022203 #9305]  INFO -- : Started GET "/stylesheets/application.css" for 10.0.0.78 at 2015-11-04 22:00:38 +0100
+F, [2015-11-04T22:00:38.023432 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T22:00:38.024744 #9305]  INFO -- : Started GET "/javascripts/application.js" for 10.0.0.78 at 2015-11-04 22:00:38 +0100
+F, [2015-11-04T22:00:38.025599 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T22:00:40.491175 #9305]  INFO -- : Started GET "/" for 10.0.0.78 at 2015-11-04 22:00:40 +0100
+I, [2015-11-04T22:00:40.491862 #9305]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-11-04T22:00:40.492692 #9305]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.1ms)
+I, [2015-11-04T22:00:40.493305 #9305]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2015-11-04T22:00:40.560026 #9305]  INFO -- : Started GET "/stylesheets/application.css" for 10.0.0.78 at 2015-11-04 22:00:40 +0100
+F, [2015-11-04T22:00:40.560846 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T22:00:40.562407 #9407]  INFO -- : Started GET "/javascripts/application.js" for 10.0.0.78 at 2015-11-04 22:00:40 +0100
+F, [2015-11-04T22:00:40.566951 #9407] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+I, [2015-11-04T22:01:01.042622 #9305]  INFO -- : Started GET "/" for 10.0.0.78 at 2015-11-04 22:01:01 +0100
+I, [2015-11-04T22:01:01.043291 #9305]  INFO -- : Processing by WelcomeController#index as HTML
+I, [2015-11-04T22:01:01.044123 #9305]  INFO -- :   Rendered welcome/index.html.erb within layouts/application (0.0ms)
+I, [2015-11-04T22:01:01.044756 #9305]  INFO -- : Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+I, [2015-11-04T22:01:01.162905 #9407]  INFO -- : Started GET "/javascripts/application.js" for 10.0.0.78 at 2015-11-04 22:01:01 +0100
+I, [2015-11-04T22:01:01.162904 #9305]  INFO -- : Started GET "/stylesheets/application.css" for 10.0.0.78 at 2015-11-04 22:01:01 +0100
+F, [2015-11-04T22:01:01.163690 #9305] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+F, [2015-11-04T22:01:01.163795 #9407] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  vendor/bundle/ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  vendor/bundle/ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  vendor/bundle/ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  /usr/local/rvm/gems/ruby-2.2.0/gems/passenger-5.0.21/src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
