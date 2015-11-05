@@ -1,9 +1,10 @@
 <h1>Cellular Coverage</h1>
-<p>This is the content of the navigator.connection object:</p>
-<script type="text/javascript">
-	var connection = navigator.connection
-	for (var property in navigator.connection) {
-		document.write(property + ': ' + navigator.connection[property]+'<br/>');
-	}
-	console.debug(connection);
-</script>
+<p>
+	Support for navigator.connection: 
+	<script>
+		document.write(!(navigator.connection == undefined));
+		if (navigator.connection != undefined) {
+			document.write("<br/>Connection type: " + navigator.connection.type);
+		}
+	</script>
+</p>
