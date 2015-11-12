@@ -1,55 +1,50 @@
-<!doctype html>
-<html lang="en">
-  <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" 
-href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<% content_for :head do %>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 	<style>
-	  #map {
-		height: 400px;
-		width: 756px;
-	  }
-	  iframe, #info {
-		width: 100%;
-	  }
-	  .ol-attribution a {
-		color: black;
-	  }
+		#map {
+			height: 400px;
+			width: 756px;
+		}
+		iframe, #info {
+			width: 100%;
+		}
+		.ol-attribution a {
+			color: black;
+		}
 	</style>
-	<title>Del 7 Leaflet</title>
-	<script 
-src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-  </head>
-  <body>
-	<h3>Leaflet Tests</h3>
-	<div id="map"></div>
-	<button onClick='locate(this)'>Locate</button>
-	<script type="text/javascript">
-	  // the base layers
-	  var baseMaps	= {
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<% end %>
+
+<h3>Leaflet Tests</h3>
+<div id="map"></div>
+<button onClick='locate(this)'>Locate</button>
+<script type="text/javascript">
+	// the base layers
+	var baseMaps	= {
 		//OSM
 		"OSM" : L.tileLayer(
-		  'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
-		  {
-			maxZoom: 19, 
-			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-		  }
+			'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+			{
+				maxZoom: 19,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}
 		),
-	  };
-	  // the overlay layers
-	  var overlayMaps = {
+	};
+	// the overlay layers
+	var overlayMaps = {
 		// testone
 		"testone" : L.tileLayer.wms(
-		"http://map.mringelborn.com:8080/geoserver/wms", 
-		{
-		  layers: 'test:testone',
-		  format: 'image/png',
-		  transparent: true,
-		  version: '1.1.0',
-		  opacity: 0.5,
-		  attribution: 'overlay-styles by jan'
-		}),
-	  }
+			"http://map.mringelborn.com:8080/geoserver/wms", 
+			{
+				layers: 'test:testone',
+				format: 'image/png',
+				transparent: true,
+				version: '1.1.0',
+				opacity: 0.5,
+				attribution: 'overlay-styles by jan'
+			}
+		),
+	}
 	  
 	
 	
