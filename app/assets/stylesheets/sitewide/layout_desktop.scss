@@ -1,9 +1,35 @@
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
     -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
     border-radius: $radius;
 }
+@mixin border-top-right($radius) {
+	-webkit-border-top-right-radius: $radius;
+	-moz-border-radius-topright: $radius;
+    border-top-right-radius: $radius;
+}
+@mixin border-top-left($radius) {
+	-webkit-border-top-left-radius: $radius;
+	-moz-border-radius-topleft: $radius;
+    border-top-left-radius: $radius;
+}
+@mixin border-bottom-right($radius) {
+	-webkit-border-bottom-right-radius: $radius;
+	-moz-border-radius-bottomright: $radius;
+    border-bottom-right-radius: $radius;
+}
+@mixin border-bottom-left($radius) {
+	-webkit-border-bottom-left-radius: $radius;
+	-moz-border-radius-bottomleft: $radius;
+    border-bottom-left-radius: $radius;
+}
+@mixin center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+$padding_sides: 30px;
+$padding_topbottom: 20px;
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
     margin: 0;
@@ -13,26 +39,61 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
 }
+
+.clear {
+	clear: both;
+}
+
 body {
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/BLANK_in_Europe_%28relief%29_%28-mini_map%29.svg/1000px-BLANK_in_Europe_%28relief%29_%28-mini_map%29.svg.png");
 	background-size: cover;
+	background-attachment: fixed;
 	
 	#main_container {
+		@include center;
 		background-color: rgba(255, 255, 255, 0.85);
 		width: 900px;
 		min-height: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 20px;
 		box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.5);
 		
 		header {
 			text-align: center;
-			
-			
+			padding: $padding_topbottom;
+		}
+		
+		nav {
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			padding-left: $padding_sides;
+			padding-right: $padding_sides;
+		    padding-top: 3px;
+		    padding-bottom: 3px;
+			ul {
+				li {
+					display: inline;
+					float: left;
+					margin-right: 15px;
+					
+					a, a:hover, a:visited {
+						font-family: Impact, Charcoal, sans-serif;
+					    text-transform: uppercase;
+					    display: block;
+					    color: black;
+					    text-decoration: none;
+					    font-size: 22px;
+					}
+					a:hover, a.selected {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		
+		section {
+			padding: $padding_topbottom $padding_sides;
 		}
 	}
 }
