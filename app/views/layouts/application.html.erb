@@ -10,9 +10,15 @@ nav = {
 	<head>
 		<title>Cellular Coverage</title>
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= stylesheet_link_tag 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' %>
+		<%= stylesheet_link_tag 'non-sitewide/leaflet_map' %>
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js' %>
+		<%= javascript_include_tag '//speedof.me/api/api.js' %>
+		<%= javascript_include_tag 'non-sitewide/location' %>
+		<%= javascript_include_tag 'non-sitewide/speed_test' %>
+		<%= stylesheet_link_tag 'sitewide/test' %>
 		<%= csrf_meta_tags %>
-		<%= yield :head %>
 	</head>
 	<body>
 		<div id="main_container">
