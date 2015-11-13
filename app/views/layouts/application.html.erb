@@ -8,7 +8,7 @@ nav = {
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Cellular Coverage</title>
+		<title>Cellular Coverage | <%= yield :page_name %></title>
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 		<%= stylesheet_link_tag 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css' %>
 		<%= stylesheet_link_tag 'non-sitewide/leaflet_map' %>
@@ -22,7 +22,7 @@ nav = {
 	<body>
 		<div id="main_container">
 			<header>
-				<h1><%= yield :page_name %></h1>
+				<h1>Cellular Coverage</h1>
 			</header>
 			<nav>
 				<ul>
