@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Cellular Coverage</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <%= yield :head %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+	<head>
+		<title>Cellular Coverage</title>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= csrf_meta_tags %>
+		<%= yield :head %>
+	</head>
+	<body>
+		<div id="main_container">
+			<header>
+				<h1><%= yield :page_name %></h1>
+			</header>
+			<nav>
+				<ul>
+					
+				</ul>
+			</nav>
+			<section>
+				<%= yield %>
+			</section>
+			<footer>
+			</footer>
+		</div>
+	</body>
 </html>

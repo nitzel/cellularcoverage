@@ -5,20 +5,9 @@
 	<%= javascript_include_tag 'non-sitewide/leaflet_map' %>
 <% end %>
 
-<div id="main_container">
-	<header>
-		<h1>Map</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><%= link_to 'Map', pages_index_path %></li>
-			<li><%= link_to 'Speed Test', pages_test_path %></li>
-		</ul>
-	</nav>
-	<section>
-		<div id="map"></div>
-		<button onClick='locate(this)'>Locate</button>
-	</section>
-	<footer>
-	</footer>
-</div>
+<% content_for :page_name do %>
+	Map
+<% end %>
+
+<div id="map"></div>
+<button onClick='locate(this)'>Locate</button>
