@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'pages/index' => 'welcome#index'
   get 'pages/test' => 'welcome#test'
   
+  post 'pages/test' => 'welcome#test'
+  
 end
