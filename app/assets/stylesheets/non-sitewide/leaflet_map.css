@@ -1,0 +1,10 @@
+#map {
+	height: 400px;
+	width: 756px;
+}
+iframe, #info {
+	width: 100%;
+}
+.ol-attribution a {
+	color: black;
+}
