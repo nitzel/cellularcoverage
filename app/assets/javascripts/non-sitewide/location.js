@@ -2,9 +2,10 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(onSuccess);
     } else {
-        alert("Geolocation is not supported by this browser.");
+        console.log("Error: Geolocation is not supported by this browser.");
+        return false;
     }
 }
 function onSuccess(position) {
-	$("#geolocation").html('lat: ' + position.coords.latitude + '<br/>long: ' + position.coords.longitude);
+	this.coords = position.coords;
 }
