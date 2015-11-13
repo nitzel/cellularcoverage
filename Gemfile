@@ -45,3 +45,5 @@ group :development do
   gem 'spring'
 end
 
+# A gem that implement a Helper for navigation: https://gist.github.com/greypants/3279194
+gem nav_lynx
