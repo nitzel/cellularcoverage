@@ -18,3 +18,5 @@
 
 # Ignore secrets
 /config/secrets.yml
+
+/pull.sh
