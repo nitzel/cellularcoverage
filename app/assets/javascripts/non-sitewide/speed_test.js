@@ -31,13 +31,14 @@ SomApi.onError = function(error) {
 	console.log(error.message);
 };
 
-function test_speed(geolocation) {
+function test_speed() {
 	if (this.geolocation_enabled) {
 		console.log("Getting geolocation");
 		if (!getLocation()) {
+			console.log("No Geolocation found");
 			return false;
 		}
 	}
-	console.log("Starting test");
+	$("#info").append("Starting test");
 	SomApi.startTest();
 }
