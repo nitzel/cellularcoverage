@@ -1,12 +1,16 @@
 <h1>New Measurement</h1>
 <%= form_for :measurement, url: measurement_index_path do |f| %>
 	<p>
-		<%= f.label :title %><br>
-		<%= f.text_field :title %>
+		<%= f.label :latitude %><br>
+		<%= f.text_field :latitude %>
 	</p>
 	<p>
-		<%= f.label :text %><br>
-		<%= f.text_area :text %>
+		<%= f.label :longitude %><br>
+		<%= f.text_field :longitude %>
+	</p>
+	<p>
+		<%= f.label :quality %><br>
+		<%= f.text_field :quality %>
 	</p>
 	<p>
 		<%= f.submit %>
