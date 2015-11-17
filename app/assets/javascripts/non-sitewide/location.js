@@ -3,8 +3,9 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(function(position) {
 	        this.coords = position.coords;
         });
+        return true;
     } else {
-        console.log("Error: Geolocation is not supported by this browser.");
+        console.error("Error: Geolocation is not supported by this browser.");
         return false;
     }
 }

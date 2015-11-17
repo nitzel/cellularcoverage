@@ -4,13 +4,19 @@
 
 <div id="info"></div>
 <div id="output"></div>
+<div id="log"></div>
 <button id="tester">Test network speed</button>
 
 <script>
+	/*console.log = function(a) {
+		$("#log").append(JSON.stringify(a) + "<br/>");
+	}
+	console.error = console.log
+	console.warn = console.log;*/
 	this.geolocation_enabled = false;
 	if(navigator.connection && navigator.connection.type == 'cellular') {
 		if (navigator.geolocation) {
-			geolocation_enabled = true;
+			this.geolocation_enabled = true;
 		} else {
 			$("#info").html('Geolocation is not supported by this browser. You are not able to contribute.<br/>');
 		}
