@@ -16,8 +16,6 @@
 !/log/.keep
 /tmp
 
-/Gemfile.lock
-
 # Ignore secrets
 /config/secrets.yml
 

@@ -3,8 +3,9 @@ class MeasurementController < ApplicationController
 	end
 	
 	def create
-		measurement = Measurement.create(measurement_params)
-		render plain: measurement
+		measurement = Measurement.new(measurement_params)
+		success = measurement.save()
+		render plain: success
 	end
 	
 	private
