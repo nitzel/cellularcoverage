@@ -1,0 +1,50 @@
+/* color depending on the quality parameter*/
+
+/** @title quality < 0 */
+[quality <= 0] {
+  fill: #EEE9ED; 
+}
+/** @title quality 0-5 */
+[quality > 0 and quality <= 1] {
+	fill: #DED3DC;
+}
+/** @title quality 5-10 */
+[quality > 1 and quality <= 2] {
+	fill: #CEBECA;
+}
+/** @title quality 10-20 */
+[quality > 2 and quality <= 3] {
+	fill: #BEA8B9;
+}
+/** @title quality 20-30 */
+[quality > 3 and quality <= 4] {
+	fill: #AE93A7;
+}
+/** @title quality 30-40 */
+[quality > 4 and quality <= 5] {
+	fill: #8E6784;
+}
+/** @title quality 40-50 */
+[quality > 5 and quality <= 7] {
+	fill: #7E5273;
+}
+/** @title quality 50-60 */
+[quality > 7 and quality <= 9] {
+	fill: #6E3C61;
+}
+/** @title quality > 60 */
+[quality > 9] {
+	fill: #5E2750;
+}
+
+/* shading doesnt work quite yet
+
+[samples > 5 and samples <= 10] {
+  fill: symbol('shape://slash');
+}
+[samples > 5 and samples <= 10]:fill {
+  size: 8;
+  stroke: darkgray;
+}
+
+*/
