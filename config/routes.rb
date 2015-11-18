@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   
   get 'page/map' => 'page#map'
   get 'page/test' => 'page#test'
+  get 'page/presentations' => 'page#presentations'
 end
