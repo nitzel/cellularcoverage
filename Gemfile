@@ -48,4 +48,9 @@ end
 # A gem that implement a Helper for navigation: https://gist.github.com/greypants/3279194
 gem 'nav_lynx', '~> 1.1', '>= 1.1.1'
 
+# Postgres
 gem 'pg'
+
+# Client Side Validations
+# https://github.com/DavyJonesLocker/client_side_validations
+gem 'client_side_validations'
