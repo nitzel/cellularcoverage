@@ -1,5 +1,6 @@
 class MeasurementController < ApplicationController
 	def new
+		@measurement = Measurement.new
 	end
 	
 	def create
