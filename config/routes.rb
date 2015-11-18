@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :measurement
   
-  root 'welcome#index'
+  root 'page#map'
   
-  get 'pages/index' => 'welcome#index'
-  get 'pages/test' => 'welcome#test'
+  get 'page/map' => 'page#map'
+  get 'page/test' => 'page#test'
 end
