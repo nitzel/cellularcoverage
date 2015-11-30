@@ -7,15 +7,15 @@ default: &default
 
 development:
   <<: *default
-  database: cellularcoverage_marcus_development
+  database: cellular_marcus
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: cellularcoverage_marcus_test
+  database: cellular_marcus
 
 production:
   <<: *default
-  database: cellularcoverage_marcus_production
+  database: cellular_marcus

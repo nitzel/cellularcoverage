@@ -1,8 +1,8 @@
 <%
 nav = {
 	'Map' => '/',
-	'Speed Test' => page_test_path,
-	'Presentations' => page_presentations_path,
+	'Speed Test' => test_path,
+	'About' => about_path,
 	'Add measurement' => new_measurement_path
 }
 %>
@@ -17,8 +17,7 @@ nav = {
 		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 		<%= javascript_include_tag 'http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js' %>
 		<%= javascript_include_tag '//speedof.me/api/api.js' %>
-		<%= javascript_include_tag 'non-sitewide/location' %>
-		<%= javascript_include_tag 'non-sitewide/speed_test' %>
+		<%= yield :head %>
 		<%= csrf_meta_tags %>
 	</head>
 	<body>

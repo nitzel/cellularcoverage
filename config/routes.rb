@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   
   root 'page#map'
   
-  get 'page/map' => 'page#map'
-  get 'page/test' => 'page#test'
-  get 'page/presentations' => 'page#presentations'
+  get 'map' => 'page#map'
+  get 'test' => 'page#test'
+  get 'about' => 'page#about'
 end

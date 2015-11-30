@@ -2,6 +2,11 @@
 	Speed Test
 <% end %>
 
+<% content_for :head do %>
+	<%= javascript_include_tag 'non-sitewide/page/test/location', 'data-turbolinks-track' => false %>
+	<%= javascript_include_tag 'non-sitewide/page/test/speed_test', 'data-turbolinks-track' => false %>
+<% end %>
+
 <div id="info"></div>
 <div id="output"></div>
 <div id="log"></div>
