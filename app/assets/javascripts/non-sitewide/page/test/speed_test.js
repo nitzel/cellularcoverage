@@ -32,7 +32,18 @@ SomApi.onError = function(error) {
 };
 
 function test_speed() {
-	if (this.geolocation_enabled) {
+	geolocation_enabled = false;
+	if(navigator.connection && navigator.connection.type == 'cellular') {
+		if (navigator.geolocation) {
+			geolocation_enabled = true;
+		} else {
+			$("#info").html('Geolocation is not supported by this browser. You are not able to contribute.<br/>');
+		}
+	}
+	else {
+		$("#info").html('You need to be on a cellular network to be able to contribute.<br/>');
+	}
+	if (geolocation_enabled) {
 		console.log("Getting geolocation");
 		if (!getLocation()) {
 			console.log("No Geolocation found");
