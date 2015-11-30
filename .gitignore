@@ -19,4 +19,7 @@
 # Ignore secrets
 /config/secrets.yml
 
+#Allow different databases between systems
+/confic/database.yml
+
 /pull.sh
