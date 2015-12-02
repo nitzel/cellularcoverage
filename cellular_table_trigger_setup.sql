@@ -1,7 +1,55 @@
 --------------------------
 -- create tables
-DROP TABLE public.testone;
-CREATE TABLE public.testone
+
+-- list of users that signed in with oauth (email&name)
+CREATE TABLE public.users
+(
+  id serial NOT NULL,
+  email varchar NOT NULL,
+  name varchar NOT NULL,
+  created_at timestamp without time zone NOT NULL default current_timestamp,
+  CONSTRAINT users_pkey_id PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.users
+  OWNER TO cellularcoverage;
+
+  
+-- table for measurements made by users
+-- INSERT updates to mapdata via a trigger
+CREATE TABLE measurements
+(
+  id serial NOT NULL,
+  latitude double precision,
+  longitude double precision,
+  quality double precision,
+  created_at timestamp without time zone NOT NULL default current_timestamp,
+  CONSTRAINT measurements_pkey PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.measurements
+  OWNER TO cellularcoverage;  
+
+-- table to relate measurements to the users that created them
+CREATE TABLE public.measurement2user
+(
+  userid serial NOT NULL references public.users(id),
+  measurementid serial NOT NULL references public.measurements(id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.measurement2user
+  OWNER TO cellularcoverage;
+
+
+  
+-- table representing the geospatial data used by geoserver
+CREATE TABLE public.mapdata
 (
   gid SERIAL PRIMARY KEY,
   -- bin bigint,
@@ -12,32 +60,14 @@ CREATE TABLE public.testone
 WITH (
   OIDS=FALSE
 );
-ALTER TABLE public.testone
-  OWNER TO jan;
+ALTER TABLE public.mapdata
+  OWNER TO cellularcoverage;
 
-  
-  
--- DROP TABLE measurements;
-
-CREATE TABLE measurements
-(
-  id serial NOT NULL,
-  latitude double precision,
-  longitude double precision,
-  quality double precision,
-  created_at timestamp without time zone NOT NULL default current_timestamp,
-  updated_at timestamp without time zone NOT NULL default current_timestamp,
-  CONSTRAINT measurements_pkey PRIMARY KEY (id)
-)
-WITH (
-  OIDS=FALSE
-);
-ALTER TABLE measurements
-  OWNER TO jan;
 
 
 --------------------------
 -- trigger stuff
+-- updates mapdata when a measurement is added
 CREATE OR REPLACE FUNCTION test_function()
   RETURNS trigger AS
 $BODY$
@@ -69,14 +99,14 @@ BEGIN
       RAISE NOTICE 'geometry: %',geostr;
       
       -- check if there is already some data
-      SELECT * INTO outrow FROM testone WHERE the_geom = geodat;
+      SELECT * INTO outrow FROM mapdata WHERE the_geom = geodat;
       IF NOT FOUND THEN -- does not exist, create
         RAISE NOTICE 'not found, creating';
-        INSERT INTO testone(the_geom, quality,     samples) 
+        INSERT INTO mapdata(the_geom, quality,     samples) 
                   VALUES(geodat,   NEW.quality, 1);
       ELSE -- exists, udpate
         RAISE NOTICE 'found, updating';
-        UPDATE testone SET 
+        UPDATE mapdata SET 
           quality = (outrow.quality*outrow.samples+NEW.quality)/(outrow.samples+1),
           samples = (outrow.samples+1)
           WHERE gid = outrow.gid;      
@@ -93,9 +123,9 @@ $BODY$
   LANGUAGE plpgsql VOLATILE
   COST 100;
 ALTER FUNCTION test_function()
-  OWNER TO jan;
+  OWNER TO cellularcoverage;
 --------------------------
--- bind function to samples as trigger
+-- bind function to measurements as trigger
 CREATE TRIGGER test_trigger
 BEFORE INSERT OR UPDATE
 ON measurements
