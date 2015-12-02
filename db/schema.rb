@@ -11,17 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151117160531) do
+ActiveRecord::Schema.define(version: 20151130164236) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "measurements", force: :cascade do |t|
-    t.float    "latitude"
-    t.float    "longitude"
-    t.float    "quality"
+    t.float    "latitude",   null: false
+    t.float    "longitude",  null: false
+    t.float    "quality",    null: false
     t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email_address", null: false
+    t.datetime "created_at",    null: false
+  end
+
+  add_index "users", ["email_address"], name: "index_users_on_email_address", using: :btree
 
 end
