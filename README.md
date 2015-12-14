@@ -3,7 +3,8 @@ coverage of cellular nets
 
 # presentations
 - Initial @ goo.gl/86MZzm
-- Update 1 @ goo.gl/PSS6Xd
+- Update @ goo.gl/PSS6Xd
+- Final @ goo.gl/PdYsjB
 
 # website
 map.mringelborn.com
