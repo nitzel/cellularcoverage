@@ -1,5 +1,5 @@
 SomApi.account = "SOM5645ad2eec3af"; //your API Key here
-SomApi.domainName = "marcus.mringelborn.com"; //your domain or sub-domain here
+SomApi.domainName = "map.mringelborn.com"; //your domain or sub-domain here
 SomApi.config.sustainTime = 5;
 SomApi.config.userInfoEnabled = false;
 SomApi.config.progress.verbose = true;
